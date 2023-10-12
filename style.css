@@ -1,0 +1,83 @@
+body{								/*Background et général body*/
+	text-align: center;
+	color:black;
+	background-color:#002642;
+	background-color:linear-gradient(133deg, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.2) 50%)
+	
+}
+h1{									/*Catégorie h1*/
+	color:black;
+	font-family: 'Tilt Neon', cursive;
+	font-weight: bold;
+
+}									/*Design de la photo de profil*/
+.image-circle{
+	height:220px;
+	border-radius: 50%;
+}
+h2{									/*Catégorie h2*/
+	font-family:'Helvetica';
+	text-align: center;
+}
+
+h3{
+
+	font-size: 26px;
+	color:#002642;
+	font-family: 'Tilt Neon', cursive;
+}
+a{
+	color:#002642;
+	font-size:150px;
+	transition:1s;
+}
+a:hover{
+	color:black;
+	font-size: 200px;
+	transition:0,8s;
+}
+
+.card-white{
+  	background:white;
+  	padding:40px 0px;
+  	margin:100px 300px;
+  	box-shadow:0px 10px 30px rgba(0,0,0,0.5);
+  	border-radius: 10px;
+}
+.list-inline{
+	list-style: none;
+	padding-left: 0px
+}
+.list-inline li{
+	display:inline;
+	padding: 10px;
+
+}
+.list-inline i{
+	
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width:400px;
+  }
+}
+@media (max-width: 340px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width:300px;
+  }
+}
+.container
